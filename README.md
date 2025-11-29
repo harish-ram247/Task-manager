@@ -2,8 +2,6 @@
 
 A responsive, Spiderman-themed task manager web application designed to help you organize your daily missions with style.
 
-![Task Manager Preview](preview.png)
-*(Note: Add a screenshot named `preview.png` to the root directory to see it here)*
 
 ## 🕷️ Features
 
