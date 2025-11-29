@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+        </header>
+
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Add a new task..." aria-label="New task">
+            <button id="addTaskBtn" aria-label="Add task">Add</button>
+        </div>
+
+        <ul id="taskList" class="task-list" role="list">
+            <!-- Tasks will be added here dynamically -->
+        </ul>
+
+        <div class="controls">
+            <button id="clearCompletedBtn" class="secondary-btn">Clear Completed</button>
+        </div>
+
+        <footer class="quotes-section">
+            <p id="quoteDisplay" class="quote-text"></p>
+        </footer>
+    </div>
+
+    <!-- Background Animation Elements -->
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
