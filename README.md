@@ -31,7 +31,7 @@ You only need a modern web browser (Chrome, Firefox, Edge, Safari) to run this a
 
 1.  **Clone the repository** (or download the source code):
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/harish-ram247/Task-manager.git>
     ```
 2.  **Navigate to the project directory**:
     ```bash
